@@ -92,7 +92,6 @@ li {
     height: 200px;
     right: 0;
     z-index: 10;
-    /* display: none; */
 }
 
 .menu-bar li{
@@ -110,15 +109,9 @@ li {
 .main{
   background-color: #314e5256;
 }
-/* .copy-container::before{
-  content: '';
-} */
 .copy-container {
-  /* margin-top: 10px; */
-  /* margin-bottom: 100px; */
   position: relative;
   background-color: #314e525e;
-  /* max-height:673px; */
 }
 
 .copy-container::after{
@@ -193,7 +186,7 @@ li {
   width: 100%;
   justify-content: center;
   flex-wrap: wrap;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
 }
 
 .contents-item {
@@ -205,7 +198,7 @@ li {
 }
 
 .contents-item img{
-  max-height: 300px;
+  max-height: 250px;
   box-shadow: 5px 5px 20px rgba(228, 228, 228, 0.886);
   border-radius: 20px;
 
