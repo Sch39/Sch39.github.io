@@ -245,7 +245,7 @@ input, textarea {
 }
 
 .contact-submit{
-  width: 500px;
+  /* width: 0px; */
   background-color:#26001b;
   color:#b8b6b6;
   font-size: 22px;
